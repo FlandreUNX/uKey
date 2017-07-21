@@ -449,7 +449,7 @@ static __inline uint8_t uKey_IsHit(void) {
 #if KEY_OS_TYPE == 1
 void thread_uKey(const void *arg) {
   for (;;) {
-    osDelay(30);
+    osDelay(20);
 
     uKey_Scan();
   
